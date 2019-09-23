@@ -1,6 +1,7 @@
 <?php
 /*
  * now 手机归属地接口访问类
+ * https://www.nowapi.com/
  */
 
 class nowapi
