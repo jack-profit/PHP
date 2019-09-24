@@ -1,0 +1,8 @@
+# 配置composer使用国内源
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
+# 安装laravel 5.1，不指定版本默认安装最新版
+composer create-project laravel/laravel --prefer-dist laravel  5.1
+
+# 设置storage目录，使其拥有写入权限
+chmod 775 storage
+
